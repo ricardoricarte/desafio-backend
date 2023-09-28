@@ -38,28 +38,32 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Abra em qualquer IDE Java
 - Execute o projeto Spring Boot
 
-Agora você pode testar a API com o Swagger em `http://localhost:8080/swagger-ui.html#/`:
+Agora você pode testar a API com o Swagger em `http://localhost:8080/swagger-ui.html`:
 
 Desafio SEA Solutions para Vaga de Back-end:
 
 Implemente o back-end para a tela presente no link abaixo.
 
-Figma - Desafio Spring Boot - https://www.figma.com/file/Xksngjqmb9KNJ6lnsGLK1x/Desafio-React?node-id=0%3A1
+Figma FrontEnd - Desafio Spring Boot - https://www.figma.com/file/Xksngjqmb9KNJ6lnsGLK1x/Desafio-React?node-id=0%3A1
 
 Condições para considerado feito:
- Utilizar Spring Boot versão: 2.5.4;
-Utilizar o Java 8 ou Java 11;
- Implementar os serviços Rest;
- Persistir as informações no banco de dados;
- Implementar as três entidades e seus relacionamentos: SETOR, CARGO e TRABALHADOR;
- Fazer o devido tratamento de exceções;
- Estar de acordo com as regras de negócio;
- Disponibilizar o código fonte em um repositório do Github;
- Utilizar Gradle para gerenciamento de dependencias;
+
+- Utilizar Spring Boot versão: 2.5.4;
+- Utilizar o Java 8 ou Java 11;
+- Implementar os serviços Rest;
+- Persistir as informações no banco de dados;
+- Implementar as três entidades e seus relacionamentos: SETOR, CARGO e TRABALHADOR;
+- Fazer o devido tratamento de exceções;
+- Estar de acordo com as regras de negócio;
+- Disponibilizar o código fonte em um repositório do Github;
+- Utilizar Gradle para gerenciamento de dependencias;
+
 Sugestões:
-Utilizar banco de dados PostgreSQL;Utilizar o Swagger para criar uma documentação da API;
-Criar uma quantidade mínima de testes unitários;
-Utilizar os princípios do Clean Code;
+
+- Utilizar banco de dados PostgreSQL;
+- Utilizar o Swagger para criar uma documentação da API;
+- Criar uma quantidade mínima de testes unitários;
+- Utilizar os princípios do Clean Code;
 
 Regras de negócios:
 
