@@ -33,7 +33,8 @@ public class SetorService {
       return setorRepository.save(setor);
     }
     public Optional<Setor> procurarSetorPorId(Long id) {
-        return setorRepository.findById(id);}
+        return setorRepository.findById(id);
+    }
     public void deletarSetor(Setor setor) {
       setorRepository.delete(setor);
     }

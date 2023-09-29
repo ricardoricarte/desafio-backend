@@ -1,4 +1,4 @@
-package com.seasolutions;
+package com.josericardo.seasolutions;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

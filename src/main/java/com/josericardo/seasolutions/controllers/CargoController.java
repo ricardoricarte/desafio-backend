@@ -28,6 +28,10 @@ public class CargoController {
         this.cargoRepository = cargoRepository;
     }
 
+    // Em resumo, esse método recebe uma solicitação para adicionar um novo cargo associado a um setor específico. 
+    // Ele verifica se o cargo com o mesmo nome já existe e, se não existir, 
+    // cria um novo cargo, associa-o ao setor correspondente e o adiciona ao banco de dados. Em caso de sucesso, 
+    // ele retorna uma resposta indicando que o cargo foi criado com sucesso.  
     @PostMapping("/setor/{id}")
     public ResponseEntity<Object> salvarCargo(@PathVariable(value = "id") Long id,
                                               @RequestBody @Valid CargoDTO cargoDTO) {
@@ -51,6 +55,8 @@ public class CargoController {
         return ResponseEntity.status(HttpStatus.OK).body(cargoOptional.get());
     }
 
+    // Em resumo, este método é usado para atualizar um cargo existente com base no ID fornecido na URL e nas informações fornecidas no corpo da solicitação. 
+    // Ele verifica se o cargo existe, atualiza seu nome e retorna uma resposta apropriada indicando o resultado da operação.
     @PutMapping("/{id}")
     public ResponseEntity<Object> atualizarCargo(@PathVariable(value = "id") Long id,
                                                  @RequestBody @Valid CargoDTO cargoDTO) {
