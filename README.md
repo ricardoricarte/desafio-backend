@@ -1,4 +1,4 @@
-<h1 align="center">
+<h1 align="left">
  <img src="https://media.licdn.com/dms/image/C4E0BAQE7S5qaLLiGyA/company-logo_200_200/0/1630634537644?e=2147483647&v=beta&t=oChSRm9ERSSMAUBs5aEf1iSt0s6gtS_-L5ropjKxm68" width="50%">
 </h1>
 
