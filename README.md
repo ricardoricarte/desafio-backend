@@ -1,4 +1,4 @@
-<h1 align="left">
+<h1 align="center">
  <img src="https://media.licdn.com/dms/image/C4E0BAQE7S5qaLLiGyA/company-logo_200_200/0/1630634537644?e=2147483647&v=beta&t=oChSRm9ERSSMAUBs5aEf1iSt0s6gtS_-L5ropjKxm68" width="50%">
 </h1>
 
@@ -10,7 +10,7 @@
 </p>
 
 
-<div align="center"> 
+<div align="left"> 
   <a href="https://www.linkedin.com/in/ze-ricardo/">
      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
   </a>
